@@ -1,6 +1,6 @@
 How to Restart our Node Application
 
-cd node-app-CICD 
+cd node-app-CICD , 
 node server.js
 
 Our App will run on 
