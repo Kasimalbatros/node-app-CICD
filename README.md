@@ -28,3 +28,6 @@ sudo usermod -aG docker $USER && newgrp docker     Adds the current user ($USER)
 
 sudo usermod -aG docker jenkins     Adds the jenkins user to the docker group
 
+
+Jenkinsfile used for creating declarative Pipeline which we generally used for Production to implement CICD but Complex & advaced logic we use script Pipeline.
+
