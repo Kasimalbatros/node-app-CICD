@@ -45,6 +45,7 @@ app.delete('/todos/:index', (req, res) => {
 });
 
 // Start server on PORT 8000
-app.listen(PORT, () => {
-  console.log(`✅ Server is running on http://localhost:${PORT}`);
+app.listen(8000, '0.0.0.0', () => {
+  console.log("Server is running on port 8000");
 });
+
