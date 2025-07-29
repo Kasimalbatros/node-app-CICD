@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: 'main', 'https://github.com/Kasimalbatros/node-app-CICD.git'
+                git branch: 'main', url: 'https://github.com/Kasimalbatros/node-app-CICD.git'
             }
         }
 
